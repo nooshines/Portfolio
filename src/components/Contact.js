@@ -24,6 +24,7 @@ const Card = styled.div`
   }
 
   .highlight {
+    color: black;
     font-weight: bold;
     background-image: linear-gradient(120deg, #fad3cf 0%, #fad3cf 100%);
     background-repeat: no-repeat;

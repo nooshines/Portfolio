@@ -42,27 +42,36 @@ const Now = () => {
         <h1>⏱️ Now</h1>
         <small className="gray">October 2020</small>
         <div className="mt-40">
-          <div className="bold purple font-25 mb-3">
-            What I'm currently working on :
+          {/* ************************ */}
+          <div className="bold font-30 mb-3">What I'm currently . . .</div>
+          {/* ************************ */}
+          <div className="bold  font-25 mb-3 ">🛠️ working on :</div>
+          {/* ************************ */}
+          <div className="ml-3">
+            Recreating my portfolio in{" "}
+            <span className="purple bold">Next js </span>.
           </div>
-          <div>
-            Learning <span className="bold"> Netx js</span> , trying to rebuild
-            my portfolio with Next js.
+          <div className="ml-3">
+            Designing my <span className="purple bold">Logo</span> .
           </div>
-          <div>Learning Sass </div>
-          <div>
-            Loving coding Javascript, getting deeeper in to Javascript
-            Algorithms and Data Structure .
+          {/* ************************ */}
+          <div className="bold font-25 mb-3 mt-3">📖 Learning :</div>
+          {/* ************************ */}
+          <div className="ml-3">Next Js .</div>
+          <div className="ml-3">Sass .</div>
+          <div className="ml-3">
+            Javascript <span className="purple bold">Algorithms</span> and{" "}
+            <span className="purple bold">Data Structure</span> .
           </div>
-
-          <div>
-            At the moment Really Enjoying playing and exprementing with React
-            js, Material UI and Styled Components{" "}
+          <div className="bold  font-25 mb-3  mt-3">💥 Enjoying :</div>
+          <div className="ml-3">
+            Exprementing with <span className="purple bold">React js</span>,
+            <span className="purple bold">Marerial UI </span>and
+            <span className="purple bold"> Styled Components </span>💅
           </div>
-          <div>have a few exciting workshops coming up to attend</div>
-          <div>Agile Project Management</div>
-          <div>User Experience Design</div>
-          <div>SQL</div>
+          <div className="ml-3">
+            Playing with <span className="purple bold"> Node Js</span> .
+          </div>{" "}
         </div>
       </Card>
     </Container>
