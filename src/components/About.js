@@ -26,13 +26,10 @@ const Card = styled.div`
       background-size: 100% 88%;
     }
   }
-  hr {
+  .bgpurple {
     background-color: #9764c7;
   }
-  .iconify {
-    width: 40px;
-    height: 40px;
-  }
+
   @media (max-width: 768px) {
     margin-left: 10px;
   }
@@ -67,7 +64,7 @@ const About = () => {
             <span className="bold">software engineering </span>course with{" "}
             <span className="highlight">General Assembly Sydney </span>.
           </div>
-          <hr className="mt-5 mb-5" />
+          <hr className="mt-5 mb-5 bgpurple" />
           {/* Education */}
           <h3>
             {" "}
@@ -131,101 +128,111 @@ const About = () => {
             <small className="gray">IRAN 🇮🇷</small>
           </div>
           {/* ************************ */}
-          <hr className="mt-5 mb-5" />
+          <hr className="mt-5 mb-5 bgpurple" />
           {/* Tech Skills */}
           <h3>
             {" "}
-            <i className="fas fa-code mt-30 mr-20 mb-3" />
+            <i className="fas fa-code mt-30 mr-20 mb-5" />
             Tech Skils
           </h3>
           {/* ************************ */}
-          <div className="ml-60 mb-2 bold">HTML</div>
-          <div className="mr-2 ml-5">
+          <div className="mr-2 ml-5 mb-3">
             <i className="devicon-html5-plain-wordmark colored fa-3x" />
-            <span
-              className="iconify"
-              data-icon="file-icons:jsx-alt"
-              data-inline="false"
-            ></span>
           </div>
           {/* ************************ */}
-          <div className="ml-60 mb-2 bold">CSS</div>
-          <div className="mr-2 ml-5">
-            <i className="devicon-css3-plain-wordmark colored fa-3x" />
+          <hr />
+          <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-css3-plain-wordmark colored fa-3x mr-5" />
             <i className="devicon-sass-original colored fa-3x" />
           </div>
           {/* ************************ */}
-          <div className="ml-60 mb-2 bold">JavaScript</div>
-          <div className="mr-2 ml-5">
-            <i className="devicon-javascript-plain colored fa-2x" />
-            <i className="devicon-jquery-plain-wordmark colored fa-3x" />
-            <i className="devicon-nodejs-plain colored fa-3x" />
-            <i className="devicon-express-original-wordmark fa-3x" />
-            <i className="devicon-react-original-wordmark colored fa-3x" />
-            <i className="devicon-npm-original-wordmark colored fa-3x" />
+          <hr />
+          <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-javascript-plain colored fa-2x mr-5" />
+            <i className="devicon-jquery-plain-wordmark colored fa-3x mr-5" />
+            <i className="devicon-nodejs-plain colored fa-3x mr-5" />
+            <i className="devicon-express-original-wordmark fa-3x mr-5" />
+            <i className="devicon-react-original-wordmark colored fa-3x mr-5" />
+            <i className="devicon-npm-original-wordmark colored fa-3x mr-5" />
           </div>
-          <div className="ml-60 mb-2 bold">Ruby</div>
-          <div className="mr-2 ml-5">
-            <i className="devicon-ruby-plain-wordmark colored fa-3x" />
-            <i className="devicon-rails-plain-wordmark colored fa-3x" />
-          </div>
-          {/* ************************ */}
-          <div className="ml-60 mb-2 bold">Databases</div>
-          <div className="mr-2 ml-5">
-            <i className="devicon-postgresql-plain-wordmark colored fa-3x" />
-            <i className="devicon-mongodb-plain-wordmark colored fa-3x" />
+          <hr />
+          <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-ruby-plain-wordmark colored fa-3x mr-5" />
+            <i className="devicon-rails-plain-wordmark colored fa-3x mr-5" />
           </div>
           {/* ************************ */}
-          <div className="ml-60 mb-2 bold">Design</div>
-          <div className="mr-2 ml-5">
-            <i className="devicon-illustrator-plain colored fa-3x" />
-            <i className="devicon-photoshop-plain colored fa-3x" />
+          <hr />
+          <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-postgresql-plain-wordmark colored fa-3x mr-5" />
+            <i className="devicon-mongodb-plain-wordmark colored fa-3x mr-5" />
           </div>
           {/* ************************ */}
-          <div className="ml-60 mb-2 bold">Other</div>
-          <div className="mr-2 ml-5">
-            <i className="devicon-github-plain-wordmark colored fa-3x" />
-            <i className="devicon-git-plain-wordmark colored  fa-3x" />
-            <i className="devicon-heroku-plain-wordmark colored fa-3x" />
-            <i className="devicon-bootstrap-plain-wordmark colored fa-3x" />
-            <span
-              className="iconify"
-              data-icon="logos:postman"
-              data-inline="false"
-            ></span>
-            <span
-              className="iconify"
-              data-icon="logos:material-ui"
-              data-inline="false"
-            ></span>
-            <span
-              className="iconify"
-              data-icon="logos:visual-studio-code"
-              data-inline="false"
-            ></span>
-            <h1
-              className="iconify"
-              data-icon="logos-jest"
-              data-inline="false"
-            ></h1>
-            <h1>💅</h1>
+          <hr />
+          <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-illustrator-plain colored fa-3x mr-5" />
+            <i className="devicon-photoshop-plain colored fa-3x mr-5" />
           </div>
           {/* ************************ */}
-          <hr className="mt-5 mb-5" />
+          <hr />
+          <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-github-plain-wordmark colored fa-3x mr-5" />
+            <i className="devicon-git-plain-wordmark colored  fa-3x mr-5" />
+            <i className="devicon-heroku-plain-wordmark colored fa-3x mr-5" />
+          </div>
+          {/* ************************ */}
+          <hr className="mt-5 mb-5 bgpurple" />
           {/* Intrests */}
           <h3>
-            <i className="far fa-smile mt-30 mr-20" />
+            <i className="far fa-smile mt-30 mr-20 mb-4" />
             Interests
           </h3>
-          <i className="fas fa-plane fa-3x" />
-          <i className="fas fa-laptop fa-3x" />
-          <i className="fas fa-code fa-3x" />
-          <i className="fas fa-tv fa-3x" />
-          <i className="fas fa-film fa-3x" />
-          <i className="fas fa-running fa-3x" />
-          <i className="fas fa-hiking fa-3x" />
-          <i className="fas fa-biking fa-3x" />
-          <i className="fas fa-pen fa-3x" />
+          <div className="mb-3">
+            <i className="far fa-star mr-2 ml-5" />
+            <span className="bold  mr-2">Travel</span>
+            <span className="mr-2">🧳</span>
+            <span className="mr-2">🗺️</span>
+            <span className="mr-2">🛩️</span>
+          </div>
+          <div className="mb-3">
+            <i className="far fa-star mr-2 ml-5" />
+            <span className="bold  mr-2">Exercise</span>
+            <span className="mr-2"> 🏋️‍♀️ </span>
+            <span className="mr-2">🏃‍♀️</span>
+            <span className="mr-2"> 🧗‍♀️</span>
+            <span className="mr-2"> 🏊‍♀️ </span>
+            <span className="mr-2">🥾</span>
+          </div>
+          <div className="mb-3">
+            <i className="far fa-star mr-2 ml-5" />
+            <span className="bold mr-2">Nature</span>
+            <span className="mr-2"> 🌲</span>
+            <span className="mr-2">🌴 </span>
+            <span className="mr-2"> 🍂</span>
+            <span className="mr-2"> 🌳</span>
+            <span className="mr-2 size"> 🌸</span>
+            <span className="mr-2"> 🌊</span>
+            <span className="mr-2"> ☘️</span>
+          </div>
+          <div className="mb-3">
+            <i className="far fa-star mr-2 ml-5" />
+            <span className="bold mr-2">Mindfullness</span> 🧘‍♀️
+          </div>
+          <div className="mb-3">
+            <i className="far fa-star mr-2 ml-5" />
+            <span className="bold mr-2">Cinema & Music</span>
+            <span className="mr-2"> 🎦</span>
+            <span className="mr-2"> 🎥</span>
+            <span className="mr-2"> 🎧</span>
+            <span className="mr-2"> 🎵</span>
+          </div>
+          <div className="mb-3">
+            <i className="far fa-star mr-2 ml-5" />
+            <span className="bold mr-2">Art & Design</span>
+            <span className="mr-2"> 🎭</span>
+            <span className="mr-2">🎨 </span>
+            <span className="mr-2"> 🖌️</span>
+            <span className="mr-2"> </span>
+          </div>
         </div>
       </Card>
     </Container>

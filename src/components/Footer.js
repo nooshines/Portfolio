@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Container = styled.div`
+  margin-top: 80px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
