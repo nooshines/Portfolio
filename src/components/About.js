@@ -13,7 +13,7 @@ const Card = styled.div`
   align-content: center;
   align-self: center;
   width: 600px;
-  margin-top: 100px;
+  margin-top: 120px;
 
   .highlight {
     font-weight: bold;
@@ -62,7 +62,7 @@ const About = () => {
           <div className="mt-15">
             <span className="bold">Recently</span> completed a{" "}
             <span className="bold">software engineering </span>course with{" "}
-            <span className="highlight">General Assembly Sydney </span>.
+            <span className="highlight">General Assembly Sydney .</span>
           </div>
           <hr className="mt-5 mb-5 bgpurple" />
           {/* Education */}
@@ -175,8 +175,8 @@ const About = () => {
           {/* ************************ */}
           <hr />
           <div className="mr-2 ml-5 mb-3">
+            <i className="devicon-git-plain colored fa-3x mr-5" />
             <i className="devicon-github-plain-wordmark colored fa-3x mr-5" />
-            <i className="devicon-git-plain-wordmark colored  fa-3x mr-5" />
             <i className="devicon-heroku-plain-wordmark colored fa-3x mr-5" />
           </div>
           {/* ************************ */}

@@ -10,6 +10,18 @@
 .gray {
   color: gray;
 }
+.font-20 {
+  font-size: 20px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-40 {
+  font-size: 40px;
+}
 
 /* Margin Top */
 .mt-5 {
@@ -30,6 +42,9 @@
 
 .mt-30 {
   margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
 }
 
 /* Margin Right */
@@ -84,7 +99,9 @@
 .mb-30 {
   margin-bottom: 30px;
 }
-
+.mb-40 {
+  margin-bottom: 40px;
+}
 /* Margin Left */
 .ml-2 {
   margin-left: 2px;

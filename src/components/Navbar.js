@@ -50,7 +50,6 @@ const Menu = styled.div`
 `;
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
       <Logo to="/">NE</Logo>
@@ -59,7 +58,6 @@ const Navbar = () => {
           Home
         </MenuLink>
         <MenuLink to="/about">About</MenuLink>
-        <MenuLink to="/now">Now</MenuLink>
         <MenuLink to="/projects">Projects</MenuLink>
         <MenuLink to="/contact">Contact</MenuLink>
       </Menu>

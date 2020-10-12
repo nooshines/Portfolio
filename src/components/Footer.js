@@ -9,13 +9,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  p {
-    margin-top: 10px;
-  }
-  span {
-    color: #9764c7;
-    font-weight: bold;
-  }
+
   i {
     cursor: pointer;
     margin-right: 15px;
@@ -23,9 +17,10 @@ const Container = styled.div`
       color: #9764c7;
     }
   }
-  .mr {
-    margin-right: 10px;
+  .bgblack {
+    background-color: black;
   }
+
   @media (max-width: 768px) {
   }
 `;
@@ -40,12 +35,13 @@ const Footer = () => {
         <i className="fab fa-instagram fa-2x"></i>
       </div>
       <div>
-        _____________________________________________________________________________________________
+        <hr className="bgblack" />
+        <p className="mt-10">
+          Designed with <span className="mr-10">❤️</span> by{" "}
+          <span className="purple bold">Nooshin</span> © 2020 built with React
+          js .
+        </p>
       </div>
-      <p>
-        Designed with <span className="mr">❤️</span> by <span>Nooshin</span> ©
-        2020 built with React js .
-      </p>
     </Container>
   );
 };

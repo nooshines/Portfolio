@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -12,11 +13,33 @@ const Card = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-  span {
-    color: #9764c7;
+  width: 600px;
+
+  margin-top: 150px;
+
+  .link {
+    color: black;
+    :hover {
+      text-decoration: none;
+      color: black;
+    }
   }
-  h1 {
-    margin-bottom: 40px;
+
+  .highlight {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #fad3cf 0%, #fad3cf 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 88%;
+    }
+  }
+  .bgpurple {
+    background-color: #9764c7;
   }
 
   @media (max-width: 768px) {
@@ -32,26 +55,123 @@ const Projects = () => {
   return (
     <Container>
       <Card>
-        <h1>Projects</h1>
+        <h1 className="mb-40">💻 Projects</h1>
+        <p className="mb-5">
+          If you are intrested to have a look at my{" "}
+          <span className="bold ">projects</span>, you can check out my
+          <Link to="https://github.com/nooshines" className="link">
+            <span className="bold highlight mr-2">
+              {" "}
+              github Repository <i className="fab fa-github fa-1x " />
+            </span>
+          </Link>
+        </p>
+        {/* *********** Project Five ************* */}
+        <div>
+          <div className="bold font-20 purple">
+            Find A Personal Trainer MERN{" "}
+          </div>
+          <Link
+            to="https://github.com/nooshines/find-a-trainer-mern"
+            className="highlight link mb-3"
+          >
+            <i className="fas fa-arrow-right mr-3 " />
+            check this project here
+          </Link>
+          <p>
+            <i className="fas fa-code" />
+            <span className="bold">TECHNOLOGIES & RESOURCES USED :</span>{" "}
+            <span className="gray">
+              HTML, CSS, Javascript, React js, Node js - Express, MongoDB, JWT,
+              bcrypt js, cors, mongoose, donenv, axios, moment,
+              react-router,material ui ,accesscontrol, geojson, multer,
+              node-geocoder, react-leaflet, Map box, styled-components .
+            </span>
+          </p>
+          <hr className="mt-5 mb-5 bgpurple" />
+        </div>
+        {/* *********** Project Four ************* */}
+        <div>
+          <div className="bold font-20 purple">Trello Clone</div>
+          <Link
+            to="https://github.com/nooshines/Trello"
+            className="highlight link mb-3"
+          >
+            <i className="fas fa-arrow-right mr-3 " />
+            check this project here
+          </Link>
+          <p>
+            <i className="fas fa-code" />
+            <span className="bold">TECHNOLOGIES & RESOURCES USED :</span>{" "}
+            <span className="gray">
+              HTML, CSS, Javascript, React js, Node js - Express, MongoDB, JWT,
+              bcrypt js, cors, mongoose, donenv, axios, moment, react-router,
+              react-beautiful-dnd, material ui .
+            </span>
+          </p>
+          <hr className="mt-5 mb-5 bgpurple" />
+        </div>
 
-        <i className="devicon-html5-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-jquery-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-javascript-plain colored fa-2x"></i>
-        <i className="devicon-css3-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-express-original-wordmark fa-3x"></i>
-        <i className="devicon-mongodb-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-react-original-wordmark colored fa-3x"></i>
-        <i className="devicon-ruby-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-postgresql-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-git-plain-wordmark colored  fa-3x"></i>
-        <i className="devicon-github-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-heroku-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-bootstrap-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-illustrator-plain colored fa-3x"></i>
-        <i className="devicon-rails-plain-wordmark colored fa-3x"></i>
-        <i className="devicon-photoshop-plain colored fa-3x"></i>
-        <i className="devicon-npm-original-wordmark colored fa-3x"></i>
-        <i className="devicon-sass-original colored fa-3x"></i>
+        {/* *********** Project Three ************* */}
+        <div>
+          <div className="bold font-20 purple">Finance Tracker</div>
+          <Link
+            to="https://github.com/nooshines/Finance-Tracker"
+            className="highlight link mb-3"
+          >
+            <i className="fas fa-arrow-right mr-3 " />
+            check this project here
+          </Link>
+          <p>
+            <i className="fas fa-code" />
+            <span className="bold">TECHNOLOGIES & RESOURCES USED :</span>{" "}
+            <span className="gray">
+              HTML, CSS, Javascript, React js, Ruby On Rails, Postgreql, Active
+              Record, JWT, fetch, Charts js, material ui .
+            </span>
+          </p>
+          <hr className="mt-5 mb-5 bgpurple" />
+        </div>
+        {/* *********** Project Two ************* */}
+        <div>
+          <div className="bold font-20 purple">Find A Personal Trainer</div>
+          <Link
+            to="https://github.com/nooshines/Find-A-Personal_Trainer"
+            className="highlight link mb-3"
+          >
+            <i className="fas fa-arrow-right mr-3 " />
+            check this project here
+          </Link>
+          <p>
+            <i className="fas fa-code" />
+            <span className="bold">TECHNOLOGIES & RESOURCES USED :</span>{" "}
+            <span className="gray">
+              HTML, CSS, JavaScript, Jquery, Page, Bootstrap, Express js,
+              Mongoose js, Express Session, Bcrypt, Node-Geocoder, Geojson,
+              multer, moment, leaflet, mapquest .
+            </span>
+          </p>
+          <hr className="mt-5 mb-5 bgpurple" />
+        </div>
+
+        {/* *********** Project One ************* */}
+        <div>
+          <div className="bold font-20 purple">Coctail Recipe</div>
+          <Link
+            to="https://github.com/nooshines/cocktail-Recipe"
+            className="highlight link mb-3"
+          >
+            <i className="fas fa-arrow-right mr-3 " />
+            check this project here
+          </Link>
+          <p>
+            <i className="fas fa-code" />
+            <span className="bold">TECHNOLOGIES & RESOURCES USED : </span>{" "}
+            <span className="gray">
+              HTML, CSS, JavaScript, Jquery, Bootstrap .
+            </span>
+          </p>
+        </div>
       </Card>
     </Container>
   );

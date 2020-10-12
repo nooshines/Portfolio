@@ -13,20 +13,20 @@ const Card = styled.div`
   align-content: center;
   align-self: center;
   width: 600px;
-  height: 500px;
+  margin-top: 120px;
 
-  span {
-    color: #9764c7;
+  .highlight {
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #fad3cf 0%, #fad3cf 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    &:hover {
+      background-size: 100% 88%;
+    }
   }
-  /* h1 {
-    margin-bottom: 40px;
-  } */
-  small {
-    color: gray;
-  }
-  .margin {
-    margin-top: 40px;
-  }
+
   @media (max-width: 768px) {
     margin-left: 10px;
   }
@@ -40,10 +40,29 @@ const Now = () => {
     <Container>
       <Card>
         <h1>⏱️ Now</h1>
-        <small>October 2020</small>
-        <div className="margin">
-          currently learning Next js, trying to rebuild my portfolio with{" "}
-          <span>Netx js</span> .
+        <small className="gray">October 2020</small>
+        <div className="mt-40">
+          <div className="bold purple font-25 mb-3">
+            What I'm currently working on :
+          </div>
+          <div>
+            Learning <span className="bold"> Netx js</span> , trying to rebuild
+            my portfolio with Next js.
+          </div>
+          <div>Learning Sass </div>
+          <div>
+            Loving coding Javascript, getting deeeper in to Javascript
+            Algorithms and Data Structure .
+          </div>
+
+          <div>
+            At the moment Really Enjoying playing and exprementing with React
+            js, Material UI and Styled Components{" "}
+          </div>
+          <div>have a few exciting workshops coming up to attend</div>
+          <div>Agile Project Management</div>
+          <div>User Experience Design</div>
+          <div>SQL</div>
         </div>
       </Card>
     </Container>
