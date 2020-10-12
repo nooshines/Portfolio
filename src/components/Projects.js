@@ -34,24 +34,24 @@ const Projects = () => {
       <Card>
         <h1>Projects</h1>
 
-        <i class="devicon-html5-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-jquery-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-javascript-plain colored fa-2x"></i>
-        <i class="devicon-css3-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-express-original-wordmark fa-3x"></i>
-        <i class="devicon-mongodb-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-react-original-wordmark colored fa-3x"></i>
-        <i class="devicon-ruby-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-postgresql-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-git-plain-wordmark colored  fa-3x"></i>
-        <i class="devicon-github-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-heroku-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-bootstrap-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-illustrator-plain colored fa-3x"></i>
-        <i class="devicon-rails-plain-wordmark colored fa-3x"></i>
-        <i class="devicon-photoshop-plain colored fa-3x"></i>
-        <i class="devicon-npm-original-wordmark colored fa-3x"></i>
-        <i class="devicon-sass-original colored fa-3x"></i>
+        <i className="devicon-html5-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-jquery-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-javascript-plain colored fa-2x"></i>
+        <i className="devicon-css3-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-express-original-wordmark fa-3x"></i>
+        <i className="devicon-mongodb-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-react-original-wordmark colored fa-3x"></i>
+        <i className="devicon-ruby-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-postgresql-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-git-plain-wordmark colored  fa-3x"></i>
+        <i className="devicon-github-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-heroku-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-bootstrap-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-illustrator-plain colored fa-3x"></i>
+        <i className="devicon-rails-plain-wordmark colored fa-3x"></i>
+        <i className="devicon-photoshop-plain colored fa-3x"></i>
+        <i className="devicon-npm-original-wordmark colored fa-3x"></i>
+        <i className="devicon-sass-original colored fa-3x"></i>
       </Card>
     </Container>
   );

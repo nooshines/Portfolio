@@ -16,18 +16,8 @@ const Card = styled.div`
   width: 600px;
   height: 500px;
 
-  .purple {
-    color: #9764c7;
-  }
-  h1 {
-    font-size: 60px;
-    margin-bottom: 30px;
-  }
   i {
     margin: 10px;
-  }
-  .color-red {
-    color: red;
   }
 
   @media (max-width: 768px) {
@@ -43,13 +33,12 @@ const Home = () => {
   return (
     <Container>
       <Card>
-        <h1>
+        <h1 className="mb-30 font-size-60">
           Hello <i className="far fa-hand-peace"></i>
         </h1>
         <h2>
           I'm <span className="purple">Nooshin</span> ! I design and code
-          beautifully simple things, and I{" "}
-          <i className="fas fa-heart color-red" />
+          beautifully simple things, and I <i className="fas fa-heart red" />
           what I do.
         </h2>
       </Card>

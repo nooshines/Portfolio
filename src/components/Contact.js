@@ -42,8 +42,8 @@ const Contact = () => {
           👋 Say <span className="purple">Hi</span>
         </h1>
         <div>
-          If you'd like to say <span className="bold">hi </span>or{" "}
-          <span className="bold">work</span> with me, you can reach out by{" "}
+          If you'd like to say <span className="bold">Hi </span>or{" "}
+          <span className="bold">Work</span> with me, you can reach out by{" "}
           <span className="bold"> email </span>
           via
           <div className="mail">📧 nooshin.esmaeilzadeh@yahoo.com</div>
