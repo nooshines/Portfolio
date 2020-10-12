@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import Blog from "./components/Blog";
+import Projects from "./components/Projects";
 import Now from "./components/Now";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -12,20 +12,18 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container test">
       <Router>
         <Navbar />
-        <Footer />
         <Route exact path="/" component={Home} />
         <Switch>
           <Route exact path="/about" component={About} />
-          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/projects" component={Projects} />
           <Route exact path="/now" component={Now} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </Router>
-
-      <Home />
     </div>
   );
 }

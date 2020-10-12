@@ -17,23 +17,11 @@ const Logo = styled(Link)`
   font-weight: bold;
   :hover {
     text-decoration: none;
-    color: #bf5caa;
+    color: black;
   }
-`;
-
-const Hamburger = styled.div`
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  span {
-    height: 2px;
-    width: 25px;
-    background: black;
-    margin-bottom: 4px;
-    border-radius: 5px;
-  }
-  @media (max-width: 768px) {
-    display: flex;
+  img {
+    width: 50px;
+    height: 50px;
   }
 `;
 
@@ -44,7 +32,7 @@ const MenuLink = styled(Link)`
   transition: all 0.3s ease-in;
   :hover {
     text-decoration: none;
-    color: #bf5caa;
+    color: #9764c7;
   }
 `;
 const Menu = styled.div`
@@ -53,11 +41,11 @@ const Menu = styled.div`
   align-items: center;
   position: relative;
   @media (max-width: 768px) {
-    overflow: hidden;
-    flex-direction: column;
-    width: 100%;
-    max-height: ${({ isOpen }) => (isOpen ? "300px" : "0")};
-    transition: max-height 0.3s ease-in;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+
+    padding: 0.5rem 1rem;
   }
 `;
 
@@ -66,16 +54,13 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/">NE</Logo>
-      <Hamburger onClick={() => setIsOpen(!isOpen)}>
-        <span />
-        <span />
-        <span />
-      </Hamburger>
-      <Menu isOpen={isOpen}>
-        <MenuLink to="/">Home</MenuLink>
+      <Menu>
+        <MenuLink to="/" className="home">
+          Home
+        </MenuLink>
         <MenuLink to="/about">About</MenuLink>
         <MenuLink to="/now">Now</MenuLink>
-        <MenuLink to="/blog">Blog</MenuLink>
+        <MenuLink to="/projects">Projects</MenuLink>
         <MenuLink to="/contact">Contact</MenuLink>
       </Menu>
     </Nav>
