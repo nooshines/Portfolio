@@ -12,8 +12,8 @@ const Card = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-  width: 600px;
-  margin-top: 120px;
+  max-width: 600px;
+  margin: 80px auto;
 
   .highlight {
     font-weight: bold;
@@ -28,10 +28,6 @@ const Card = styled.div`
   }
   .bgpurple {
     background-color: #9764c7;
-  }
-
-  @media (max-width: 768px) {
-    margin-left: 10px;
   }
 `;
 
@@ -49,7 +45,7 @@ const About = () => {
         <div>
           I am a <span className="bold">Junior Software Engineer</span> based in
           <span className="bold"> Sydney, Australia </span> 🐨 🦘
-          <span className="mr-10">🇦🇺</span>who has a passion for building
+          <span className="mr-1">🇦🇺</span>who has a passion for building
           user-friendly and interactive{" "}
           <span className="bold">web applications</span> . I enjoy problem
           solving and am always up for a challenge .

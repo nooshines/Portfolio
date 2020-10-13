@@ -13,9 +13,8 @@ const Card = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-  width: 600px;
-
-  margin-top: 150px;
+  max-width: 600px;
+  margin: 80px auto;
 
   .link {
     color: black;
@@ -40,13 +39,6 @@ const Card = styled.div`
   }
   .bgpurple {
     background-color: #9764c7;
-  }
-  .inline-block {
-    display: inline-block;
-  }
-
-  @media (max-width: 768px) {
-    margin-left: 10px;
   }
 `;
 

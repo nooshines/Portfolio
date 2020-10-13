@@ -19,10 +19,6 @@ const Logo = styled(Link)`
     text-decoration: none;
     color: black;
   }
-  img {
-    width: 50px;
-    height: 50px;
-  }
 `;
 
 const MenuLink = styled(Link)`
@@ -40,12 +36,13 @@ const Menu = styled.div`
   justify-content: space-between;
   align-items: center;
   position: relative;
+
   @media (max-width: 768px) {
     font-size: 20px;
-    font-weight: bold;
     justify-content: center;
-
-    padding: 0.5rem 1rem;
+    .ml {
+      /* padding: 0; */
+    }
   }
 `;
 
@@ -54,13 +51,21 @@ const Navbar = () => {
     <Nav>
       <Logo to="/">NE</Logo>
       <Menu>
-        <MenuLink to="/" className="home">
+        <MenuLink to="/" className="ml">
           Home
         </MenuLink>
-        <MenuLink to="/about">About</MenuLink>
-        <MenuLink to="/now">Now</MenuLink>
-        <MenuLink to="/projects">Projects</MenuLink>
-        <MenuLink to="/contact">Contact</MenuLink>
+        <MenuLink to="/about" className="ml">
+          About
+        </MenuLink>
+        <MenuLink to="/now" className="ml">
+          Now
+        </MenuLink>
+        <MenuLink to="/projects" className="ml">
+          Projects
+        </MenuLink>
+        <MenuLink to="/contact" className="ml">
+          Contact
+        </MenuLink>
       </Menu>
     </Nav>
   );

@@ -13,8 +13,10 @@ const Card = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
+  margin: 80px auto;
+  height: 300px;
+
   .link {
     color: #9764c7;
     :hover {
@@ -34,10 +36,6 @@ const Card = styled.div`
     &:hover {
       background-size: 100% 88%;
     }
-  }
-
-  @media (max-width: 768px) {
-    margin-left: 10px;
   }
 `;
 const Contact = () => {

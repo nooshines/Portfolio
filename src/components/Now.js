@@ -12,8 +12,8 @@ const Card = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-  width: 600px;
-  margin-top: 120px;
+  max-width: 600px;
+  margin: 80px auto;
 
   .highlight {
     font-weight: bold;

@@ -20,6 +20,9 @@ const Container = styled.div`
   .bgblack {
     background-color: black;
   }
+  a {
+    color: black;
+  }
 
   @media (max-width: 768px) {
   }
@@ -29,10 +32,18 @@ const Footer = () => {
   return (
     <Container>
       <div>
-        <i className="fab fa-github fa-2x"></i>
-        <i className="fab fa-linkedin fa-2x"></i>
-        <i className="fab fa-twitter fa-2x"></i>
-        <i className="fab fa-instagram fa-2x"></i>
+        <a href="https://github.com/nooshines">
+          <i className="fab fa-github fa-2x" />
+        </a>
+        <a href="https://www.linkedin.com/in/nooshin-esmaeilzadeh/">
+          <i className="fab fa-linkedin fa-2x" />
+        </a>
+        <a href="https://twitter.com/N00shin_es">
+          <i className="fab fa-twitter fa-2x" />
+        </a>
+        <a href="https://www.instagram.com/noosh1n/?hl=en">
+          <i className="fab fa-instagram fa-2x" />
+        </a>
       </div>
       <div>
         <hr className="bgblack" />

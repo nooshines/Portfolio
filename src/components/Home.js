@@ -13,8 +13,9 @@ const Card = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-  width: 600px;
-  height: 450px;
+  max-width: 600px;
+  margin: 80px auto;
+  height: 300px;
 
   i {
     margin: 10px;
