@@ -61,13 +61,13 @@ const Projects = () => {
         <h1 className="mb-40">💻 Projects</h1>
         <p className="mb-5">
           You can check my{" "}
-          <Link to="https://github.com/nooshines" className="link">
+          <a href="https://github.com/nooshines" className="link">
             <span className="bold highlight mr-2">
               {" "}
               github Repository <i className="fab fa-github fa-1x " />
             </span>{" "}
             to see all my
-          </Link>
+          </a>
           <span className="bold "> projects</span> .
         </p>
         {/* *********** Project Five ************* */}
@@ -76,13 +76,13 @@ const Projects = () => {
             <i className="fas fa-search-location mr-3" />
             Find A Personal Trainer
           </h3>
-          <Link
-            to="https://github.com/nooshines/find-a-trainer-mern"
+          <a
+            href="https://github.com/nooshines/find-a-trainer-mern"
             className="highlight link mb-3"
           >
             <i className="fas fa-arrow-right mr-3 " />
             check this project here
-          </Link>
+          </a>
           <p>
             A <span className="bold">Full Stack MERN </span>Application with
             <span className="bold"> React Hooks</span> and{" "}
@@ -113,13 +113,13 @@ const Projects = () => {
             <i className="fab fa-trello mr-3" />
             Trello Clone
           </h3>
-          <Link
-            to="https://github.com/nooshines/Trello"
+          <a
+            href="https://github.com/nooshines/Trello"
             className="highlight link mb-3"
           >
             <i className="fas fa-arrow-right mr-3 " />
             check this project here
-          </Link>
+          </a>
           <p>
             A <span className="bold">Full Stack</span> clone of{" "}
             <span className="bold">Trello</span> with the{" "}
@@ -151,13 +151,13 @@ const Projects = () => {
             <i className="fas fa-money-check-alt mr-3" />
             Finance Tracker
           </h3>
-          <Link
-            to="https://github.com/nooshines/Finance-Tracker"
+          <a
+            href="https://github.com/nooshines/Finance-Tracker"
             className="highlight link mb-3"
           >
             <i className="fas fa-arrow-right mr-3 " />
             check this project here
-          </Link>
+          </a>
           <p>
             A <span className="bold">Full Stack</span> Application with{" "}
             <span className="bold">Ruby On Rails</span> and{" "}
@@ -182,13 +182,13 @@ const Projects = () => {
             <i className="fas fa-search-location mr-3" />
             Find A Personal Trainer
           </h3>
-          <Link
-            to="https://github.com/nooshines/Find-A-Personal_Trainer"
+          <a
+            href="https://github.com/nooshines/Find-A-Personal_Trainer"
             className="highlight link mb-3"
           >
             <i className="fas fa-arrow-right mr-3 " />
             check this project here
-          </Link>
+          </a>
           <p>
             <span className="bold">Full Stack</span> Application using{" "}
             <span className="bold">Jquery </span>and{" "}
@@ -217,13 +217,13 @@ const Projects = () => {
             <i className="fas fa-cocktail mr-3" />
             Cocktail Recipe
           </h3>
-          <Link
-            to="https://github.com/nooshines/cocktail-Recipe"
+          <a
+            href="https://github.com/nooshines/cocktail-Recipe"
             className="highlight link mb-3"
           >
             <i className="fas fa-arrow-right mr-3 " />
             check this project here
-          </Link>
+          </a>
           <p>
             Using <span className="bold">thecocktaildb API</span> to get
             information about 🍸 <span className="bold">cocktails</span>. when

@@ -59,13 +59,13 @@ const Contact = () => {
             <span className="bold"> email </span>
             via
           </div>
-          <Link to="mailto:nooshin.esmaeilzadeh@yahoo.com" className="link">
+          <a href="mailto:nooshin.esmaeilzadeh@yahoo.com" className="link">
             {" "}
             <h5>
               <span className="mr-3">📧</span>
               <span className="highlight">nooshin.esmaeilzadeh@yahoo.com</span>
             </h5>
-          </Link>
+          </a>
         </div>
       </Card>
     </Container>
