@@ -47,12 +47,9 @@ const Now = () => {
           {/* ************************ */}
           <div className="bold  font-25 mb-3 ">🛠️ working on :</div>
           {/* ************************ */}
-          <div className="ml-3">
+          <div className="ml-3 ">
             Recreating my portfolio in{" "}
             <span className="purple bold">Next js </span>.
-          </div>
-          <div className="ml-3">
-            Designing my <span className="purple bold">Logo</span> .
           </div>
           {/* ************************ */}
           <div className="bold font-25 mb-3 mt-3">📖 Learning :</div>

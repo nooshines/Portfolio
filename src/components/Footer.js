@@ -37,7 +37,7 @@ const Footer = () => {
       <div>
         <hr className="bgblack" />
         <p className="mt-10">
-          Designed with <span className="mr-10">❤️</span> by{" "}
+          Designed with <span className="mr-1">❤️</span> by{" "}
           <span className="purple bold">Nooshin</span> © 2020 built with React
           js .
         </p>

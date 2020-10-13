@@ -36,10 +36,6 @@ const Card = styled.div`
     }
   }
 
-  .mail {
-    font-size: 20px;
-  }
-
   @media (max-width: 768px) {
     margin-left: 10px;
   }
@@ -65,10 +61,10 @@ const Contact = () => {
           </div>
           <Link to="mailto:nooshin.esmaeilzadeh@yahoo.com" className="link">
             {" "}
-            <span className="mr-3">📧</span>
-            <span className="mail highlight">
-              nooshin.esmaeilzadeh@yahoo.com
-            </span>
+            <h5>
+              <span className="mr-3">📧</span>
+              <span className="highlight">nooshin.esmaeilzadeh@yahoo.com</span>
+            </h5>
           </Link>
         </div>
       </Card>
