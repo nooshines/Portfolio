@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import icon from "../img/icon2.jpg";
 
 const Container = styled.div`
   display: flex;
@@ -38,8 +37,14 @@ const Home = () => {
           Hello <i className="far fa-hand-peace"></i>
         </h1>
         <h2>
-          I'm <span className="purple">Nooshin</span> ! I design and code
-          beautifully simple things, and I <i className="fas fa-heart red" />
+          I'm{" "}
+          <span className="purple">
+            <i className="fas fa-less-than" />
+            Nooshin /
+            <i className="fas fa-greater-than" />
+          </span>{" "}
+          ! I design and code beautifully simple things, and I{" "}
+          <i className="fas fa-heart red" />
           what I do.
         </h2>
       </Card>

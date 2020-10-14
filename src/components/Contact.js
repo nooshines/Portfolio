@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
   flex-flow: column wrap;
+  margin-bottom: 200px;
 `;
 
 const Card = styled.div`
@@ -15,7 +16,7 @@ const Card = styled.div`
   align-self: center;
   max-width: 600px;
   margin: 80px auto;
-  height: 300px;
+  height: 150px;
 
   .link {
     color: #9764c7;

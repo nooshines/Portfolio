@@ -10,6 +10,7 @@ const Nav = styled.div`
   align-items: center;
   flex-wrap: wrap;
 `;
+
 const Logo = styled(Link)`
   padding: 1rem 0;
   font-size: 2rem;
@@ -30,20 +31,17 @@ const MenuLink = styled(Link)`
     text-decoration: none;
     color: #9764c7;
   }
+  @media (max-width: 768px) {
+    padding: 4px;
+    margin: 4px;
+  }
 `;
+
 const Menu = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-    justify-content: center;
-    .ml {
-      /* padding: 0; */
-    }
-  }
 `;
 
 const Navbar = () => {
@@ -51,21 +49,11 @@ const Navbar = () => {
     <Nav>
       <Logo to="/">NE</Logo>
       <Menu>
-        <MenuLink to="/" className="ml">
-          Home
-        </MenuLink>
-        <MenuLink to="/about" className="ml">
-          About
-        </MenuLink>
-        <MenuLink to="/now" className="ml">
-          Now
-        </MenuLink>
-        <MenuLink to="/projects" className="ml">
-          Projects
-        </MenuLink>
-        <MenuLink to="/contact" className="ml">
-          Contact
-        </MenuLink>
+        <MenuLink to="/">Home</MenuLink>
+        <MenuLink to="/about">About</MenuLink>
+        <MenuLink to="/now">Now</MenuLink>
+        <MenuLink to="/projects">Projects</MenuLink>
+        <MenuLink to="/contact">Contact</MenuLink>
       </Menu>
     </Nav>
   );
