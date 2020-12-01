@@ -51,7 +51,7 @@ const Navbar = () => {
       <Menu>
         <MenuLink to="/">Home</MenuLink>
         <MenuLink to="/about">About</MenuLink>
-        <MenuLink to="/now">Now</MenuLink>
+        {/* <MenuLink to="/now">Now</MenuLink> */}
         <MenuLink to="/projects">Projects</MenuLink>
         <MenuLink to="/contact">Contact</MenuLink>
       </Menu>

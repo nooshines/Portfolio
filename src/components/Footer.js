@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,9 @@ const Footer = () => {
         </a>
         <a href="https://www.instagram.com/noosh1n/?hl=en">
           <i className="fab fa-instagram fa-2x" />
+        </a>
+        <a href="mailto:nooshin.esmaeilzadeh@yahoo.com">
+          <i className="fas fa-envelope-square fa-2x" />
         </a>
       </div>
       <div>

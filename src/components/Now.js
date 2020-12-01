@@ -48,13 +48,12 @@ const Now = () => {
           <div className="bold  font-25 mb-3 ">🛠️ working on :</div>
           {/* ************************ */}
           <div className="ml-3 ">
-            Recreating my portfolio in{" "}
-            <span className="purple bold">Next js </span>.
+            My Portfolio .
           </div>
           {/* ************************ */}
           <div className="bold font-25 mb-3 mt-3">📖 Learning :</div>
           {/* ************************ */}
-          <div className="ml-3">Next Js .</div>
+          <div className="ml-3">Type Script .</div>
           <div className="ml-3">Sass .</div>
           <div className="ml-3">
             Javascript <span className="purple bold">Algorithms</span> and{" "}

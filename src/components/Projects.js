@@ -82,7 +82,7 @@ const Projects = () => {
             based on a <span className="bold">Geo location</span> and find
             trainers around the searched location . <br />
             there is also a ⭐ <span className="bold">rating</span> and{" "}
-            <span className="bold"> review</span> system .
+            <span className="bold"> review</span> system.
           </p>
           <p>
             <i className="fas fa-code" />
@@ -90,10 +90,8 @@ const Projects = () => {
               TECHNOLOGIES & RESOURCES USED :
             </span>{" "}
             <small className="gray">
-              HTML, CSS, Javascript, React js, Node js - Express, MongoDB, JWT,
-              bcrypt js, cors, mongoose, donenv, axios, moment,
-              react-router,material ui ,accesscontrol, geojson, multer,
-              node-geocoder, react-leaflet, Map box, styled-components .
+              HTML, CSS, Javascript, React js, Node js, MongoDB, JWT, Material
+              ui, styled-components.
             </small>
           </p>
           <hr className="mt-5 mb-5 bgpurple" />
@@ -128,9 +126,8 @@ const Projects = () => {
               TECHNOLOGIES & RESOURCES USED :
             </span>{" "}
             <span className="gray">
-              HTML, CSS, Javascript, React js, Node js - Express, MongoDB, JWT,
-              bcrypt js, cors, mongoose, donenv, axios, moment, react-router,
-              react-beautiful-dnd, material ui .
+              HTML, CSS, Javascript, React js, Node js, MongoDB, JWT,
+              React-Beautiful-dnd, Material ui.
             </span>
           </p>
           <hr className="mt-5 mb-5 bgpurple" />
@@ -153,7 +150,7 @@ const Projects = () => {
             A <span className="bold">Full Stack</span> Application with{" "}
             <span className="bold">Ruby On Rails</span> and{" "}
             <span className="bold">Postgresql</span>, a simple 💰 Fintance
-            Tracker to keep track of daily Incomes and Expenses .
+            Tracker to keep track of daily Incomes and Expenses.
           </p>
           <p>
             <i className="fas fa-code" />
@@ -162,7 +159,7 @@ const Projects = () => {
             </span>{" "}
             <span className="gray">
               HTML, CSS, Javascript, React js, Ruby On Rails, Postgreql, Active
-              Record, JWT, fetch, Charts js, material ui .
+              Record, JWT, Charts js, Material ui.
             </span>
           </p>
           <hr className="mt-5 mb-5 bgpurple" />
@@ -186,7 +183,7 @@ const Projects = () => {
             <span className="bold">Express</span> to 🔍 find personal trainers
             based on <span className="bold">Geo location</span> . if user is a
             personal trainer can register as a personal trainer, then will be
-            able to create profile and also 🖊️ blog posts .
+            able to create profile and also 🖊️ blog posts.
           </p>
           <p>
             <i className="fas fa-code" />
@@ -194,9 +191,7 @@ const Projects = () => {
               TECHNOLOGIES & RESOURCES USED :
             </span>{" "}
             <span className="gray">
-              HTML, CSS, JavaScript, Jquery, Page, Bootstrap, Express js,
-              Mongoose js, Express Session, Bcrypt, Node-Geocoder, Geojson,
-              multer, moment, leaflet, mapquest .
+              HTML, CSS, JavaScript, Jquery Node js, MongoDB, Bootstrap.
             </span>
           </p>
           <hr className="mt-5 mb-5 bgpurple" />
@@ -231,7 +226,7 @@ const Projects = () => {
               TECHNOLOGIES & RESOURCES USED :{" "}
             </span>{" "}
             <span className="gray">
-              HTML, CSS, JavaScript, Jquery, Bootstrap .
+              HTML, CSS, JavaScript, Jquery, Bootstrap.
             </span>
           </p>
         </div>
